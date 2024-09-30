@@ -3,7 +3,7 @@
 
 ## Algo Used 
 
-1. Quantize the image with kemans w/ k = 6. This is to cluster the "red" of the image.
+1. Quantize the image with k-means w/ k = 6. This is to cluster the "red" of the image.
 2. Perform color filtration: Create a mask to find reddish areas; use bitwise_and + mask operator to filter out non-reds.
 3. Use contour detection to find the centers of reddish areas 
 4. Filter out nonsense/outliers based on y-coords
