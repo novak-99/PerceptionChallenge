@@ -4,7 +4,7 @@ import numpy as np
 
 
 # Algorithm has the following steps:
-# 1. Quantize the image with kemans for k = 6. 
+# 1. Quantize the image with k-means for k = 6. 
 # 2. Perform color filtration: Create a mask to find reddish areas; 
 # use bitwise_and + mask operator to filter out non-reds.
 # 3. Use contour detection to find the COMs of reddish areas 
